@@ -1491,7 +1491,7 @@
 	<VoicesAlerts>
 		<Alert>
 			<Type>SoundOnly</Type>
-			<SoundEvent>aural_500ft</SoundEvent>
+			<SoundEvent>custom_warning_cockpit_sound_03</SoundEvent>
 			<Condition>
 				<StateMachine>
 					<State id="Under" value="0">
@@ -1648,7 +1648,7 @@
 		</Alert>
 		<Alert>
 			<Type>SoundOnly</Type>
-			<SoundEvent>aural_landing_gear</SoundEvent>
+			<SoundEvent>custom_warning_cockpit_sound_05</SoundEvent>
 			<Condition>
 				<And>
 					<Simvar name="IS GEAR RETRACTABLE" unit="Boolean"/>
@@ -1680,10 +1680,10 @@
 					<InstrumentWasOff/>
 				</And>
 			</Condition>
-		</Alert>
+		</Alert> 
 		<Alert>
 			<Type>SoundOnly</Type>
-			<SoundEvent>aural_taws_system_test_ok</SoundEvent>
+			<SoundEvent>custom_warning_cockpit_sound_04</SoundEvent>
 			<Condition>
 				<And>
 					<Greater>
@@ -1695,5 +1695,325 @@
 			</Condition>
 			<Once>True</Once>
 		</Alert>
+		
+	<Alert><!--200 tone-->
+    <Type>SoundOnly</Type>
+    <SoundEvent>tone_altitude_alert_default</SoundEvent>
+    <Condition>
+      <StateMachine>
+        <State id="Reset" value="0">
+          <Transition to="Checking">
+			<Not>
+            <Or>
+            <And>
+                <Greater>
+                  <Substract>
+                    <Simvar name="INDICATED ALTITUDE" unit="feet"/>                	
+                    <Simvar name="AUTOPILOT ALTITUDE LOCK VAR" unit="feet"/>	  	
+                  </Substract>  													
+                  <Constant>200</Constant>											
+                </Greater>
+				<Lower>
+                  <Substract>
+                    <Simvar name="INDICATED ALTITUDE" unit="feet"/>					
+                    <Simvar name="AUTOPILOT ALTITUDE LOCK VAR" unit="feet"/>        
+                  </Substract>                                                      
+                  <Constant>250</Constant>                                          
+                </Lower>				
+			</And>
+            <And>
+                <Greater>
+                  <Substract>
+                    <Simvar name="AUTOPILOT ALTITUDE LOCK VAR" unit="feet"/>        
+                    <Simvar name="INDICATED ALTITUDE" unit="feet"/>					
+                  </Substract>                                                      
+                  <Constant>200</Constant>                                         
+                </Greater>
+                <Lower>
+                  <Substract>
+                    <Simvar name="AUTOPILOT ALTITUDE LOCK VAR" unit="feet"/>
+                    <Simvar name="INDICATED ALTITUDE" unit="feet"/>
+                  </Substract>
+                  <Constant>250</Constant>
+                </Lower>				
+			</And>				
+            </Or>
+			</Not>
+          </Transition>
+        </State>
+        <State id="Checking" value="0">
+          <Transition to="Alerting">
+            <Or>
+            <And>
+                <Greater>
+                  <Substract>
+                    <Simvar name="INDICATED ALTITUDE" unit="feet"/>                	
+                    <Simvar name="AUTOPILOT ALTITUDE LOCK VAR" unit="feet"/>	  	
+                  </Substract>  													
+                  <Constant>200</Constant>											
+                </Greater>
+				<Lower>
+                  <Substract>
+                    <Simvar name="INDICATED ALTITUDE" unit="feet"/>					
+                    <Simvar name="AUTOPILOT ALTITUDE LOCK VAR" unit="feet"/>        
+                  </Substract>                                                      
+                  <Constant>205</Constant>                                          
+                </Lower>				
+			</And>
+            <And>
+                <Greater>
+                  <Substract>
+                    <Simvar name="AUTOPILOT ALTITUDE LOCK VAR" unit="feet"/>        
+                    <Simvar name="INDICATED ALTITUDE" unit="feet"/>					
+                  </Substract>                                                      
+                  <Constant>200</Constant>                                         
+                </Greater>
+                <Lower>
+                  <Substract>
+                    <Simvar name="AUTOPILOT ALTITUDE LOCK VAR" unit="feet"/>
+                    <Simvar name="INDICATED ALTITUDE" unit="feet"/>
+                  </Substract>
+                  <Constant>205</Constant>
+                </Lower>				
+			</And>				
+            </Or>
+          </Transition>
+        </State>
+        <State id="Alerting" value="1">
+          <Transition to="Reset">
+            <Constant>1</Constant>
+          </Transition>
+        </State>
+      </StateMachine>
+    </Condition>
+  </Alert>
+  	
+	<Alert><!--1000 tone-->
+    <Type>SoundOnly</Type>
+    <SoundEvent>tone_altitude_alert_default</SoundEvent>
+    <Condition>
+      <StateMachine>
+        <State id="Reset" value="0">
+          <Transition to="Checking">
+			<Not>
+            <Or>
+            <And>
+                <Greater>
+                  <Substract>
+                    <Simvar name="INDICATED ALTITUDE" unit="feet"/>                	
+                    <Simvar name="AUTOPILOT ALTITUDE LOCK VAR" unit="feet"/>	  	
+                  </Substract>  													
+                  <Constant>1000</Constant>											
+                </Greater>
+				<Lower>
+                  <Substract>
+                    <Simvar name="INDICATED ALTITUDE" unit="feet"/>					
+                    <Simvar name="AUTOPILOT ALTITUDE LOCK VAR" unit="feet"/>        
+                  </Substract>                                                      
+                  <Constant>1050</Constant>                                          
+                </Lower>				
+			</And>
+            <And>
+                <Greater>
+                  <Substract>
+                    <Simvar name="AUTOPILOT ALTITUDE LOCK VAR" unit="feet"/>        
+                    <Simvar name="INDICATED ALTITUDE" unit="feet"/>					
+                  </Substract>                                                      
+                  <Constant>1000</Constant>                                         
+                </Greater>
+                <Lower>
+                  <Substract>
+                    <Simvar name="AUTOPILOT ALTITUDE LOCK VAR" unit="feet"/>
+                    <Simvar name="INDICATED ALTITUDE" unit="feet"/>
+                  </Substract>
+                  <Constant>1050</Constant>
+                </Lower>				
+			</And>				
+            </Or>
+			</Not>
+          </Transition>
+        </State>
+        <State id="Checking" value="0">
+          <Transition to="Alerting">
+            <Or>
+            <And>
+                <Greater>
+                  <Substract>
+                    <Simvar name="INDICATED ALTITUDE" unit="feet"/>                	
+                    <Simvar name="AUTOPILOT ALTITUDE LOCK VAR" unit="feet"/>	  	
+                  </Substract>  													
+                  <Constant>1000</Constant>											
+                </Greater>
+				<Lower>
+                  <Substract>
+                    <Simvar name="INDICATED ALTITUDE" unit="feet"/>					
+                    <Simvar name="AUTOPILOT ALTITUDE LOCK VAR" unit="feet"/>        
+                  </Substract>                                                      
+                  <Constant>1005</Constant>                                          
+                </Lower>				
+			</And>
+            <And>
+                <Greater>
+                  <Substract>
+                    <Simvar name="AUTOPILOT ALTITUDE LOCK VAR" unit="feet"/>        
+                    <Simvar name="INDICATED ALTITUDE" unit="feet"/>					
+                  </Substract>                                                      
+                  <Constant>1000</Constant>                                         
+                </Greater>
+                <Lower>
+                  <Substract>
+                    <Simvar name="AUTOPILOT ALTITUDE LOCK VAR" unit="feet"/>
+                    <Simvar name="INDICATED ALTITUDE" unit="feet"/>
+                  </Substract>
+                  <Constant>1005</Constant>
+                </Lower>				
+			</And>				
+            </Or>
+          </Transition>
+        </State>
+        <State id="Alerting" value="1">
+          <Transition to="Reset">
+            <Constant>1</Constant>
+          </Transition>
+        </State>
+      </StateMachine>
+    </Condition>
+  </Alert>
+	
+	<Alert><!--mins-->
+    <Type>SoundOnly</Type>
+    <SoundEvent>custom_warning_cockpit_sound_01</SoundEvent>
+    <Condition>
+      <StateMachine>
+        <State id="Reset" value="0">
+          <Transition to="Checking">
+            <Or>
+            <!--Or Minimals Mode = RA -->  
+              <And>
+              <!--And Minimals Mode = RA -->
+                <Equal>
+                  <Simvar name="L:AS3000_MinimalsMode" unit="number"/> 
+                  <Constant>3</Constant>
+                </Equal>
+              <!--And RA is greater than the set minimums value -->
+                <Greater>
+                  <Substract>
+                    <Simvar name="RADIO HEIGHT" unit="feet"/>
+                    <Simvar name="L:AS3000_MinimalsValue" unit="number"/>
+                  </Substract> 
+                  <Constant>0</Constant>                         
+                </Greater>
+              </And>
+            <!--Or Minimals Mode = Baro-->
+              <And>
+              <!--And Minimals Mode = Baro -->
+                <Equal>
+                  <Simvar name="L:AS3000_MinimalsMode" unit="number"/> 
+                  <Constant>1</Constant>
+                </Equal>
+                <!--And Baro Altitude is greater than the set minimums value -->
+                <Greater>
+                  <Substract>
+                    <Simvar name="INDICATED ALTITUDE" unit="feet"/>
+                    <Simvar name="L:AS3000_MinimalsValue" unit="number"/>
+                  </Substract> 
+                  <Constant>0</Constant>                         
+                </Greater>
+              </And>
+            </Or>
+          </Transition>
+        </State>
+          <State id="Checking" value="0">
+            <Transition to="Alerting">
+              <Or>
+              <!--Or Minimals Mode = RA -->
+                <And>
+                <!--And Minimals Mode = RA -->
+                  <Equal>
+                    <Simvar name="L:AS3000_MinimalsMode" unit="number"/> 
+                    <Constant>3</Constant>
+                  </Equal>
+                  <!--And RA is less than or equal to the set minimums value -->
+                  <LowerEqual>
+                    <Substract>
+                      <Simvar name="RADIO HEIGHT" unit="feet"/>
+                      <Simvar name="L:AS3000_MinimalsValue" unit="number"/>
+                    </Substract> 
+                    <Constant>0</Constant>
+                  </LowerEqual>
+                </And>
+              <!--Or Minimals Mode = Baro-->  
+                <And>
+                <!--And Minimals Mode = Baro -->
+                  <Equal>
+                    <Simvar name="L:AS3000_MinimalsMode" unit="number"/> 
+                    <Constant>1</Constant>
+                  </Equal>
+                <!--And Baro Altitude is less than or equal to the set minimums value -->
+                  <LowerEqual>
+                    <Substract>
+                      <Simvar name="INDICATED ALTITUDE" unit="feet"/>
+                      <Simvar name="L:AS3000_MinimalsValue" unit="number"/>
+                    </Substract> 
+                    <Constant>0</Constant>
+                  </LowerEqual>
+                </And>
+              </Or>
+            </Transition>
+          </State>
+            <State id="Alerting" value="1">
+              <Transition to="Reset">
+                  <Constant>1</Constant>
+              </Transition>
+            </State>
+        </StateMachine>
+      </Condition>
+	</Alert>
+	
+	<Alert><!-- VNAV Vertical Track -->
+    <Type>SoundOnly</Type>
+    <SoundEvent>custom_warning_cockpit_sound_02</SoundEvent>
+    <Condition>
+      <StateMachine>
+        <State id="Reset" value="0">
+          <Transition to="Monitoring">
+              <!-- if VNAV constraint not loaded -->
+              <LowerEqual>
+                <Simvar name="L:WTAP_VNav_TOD_Leg_Index" unit="number"/>
+                <Constant>0</Constant>
+              </LowerEqual>
+          </Transition>
+        </State>
+        <State id="Monitoring" value="0">
+          <Transition to="Alerting">
+              <!-- if constraint exists and the Time to ToD is 60 sec -->
+              <And>
+                <Greater>
+                  <Simvar name="L:WTAP_VNav_TOD_Leg_Index" unit="number"/>
+                  <Constant>0</Constant>
+                </Greater>
+                <Equal>
+                  <ToFixed precision="0">		
+                    <Divide>
+                      <Simvar name="L:WTAP_VNav_Distance_To_TOD" unit="meters"/>
+                      <Simvar name="GPS GROUND SPEED" unit="meters per second"/>
+                    </Divide>
+                  </ToFixed>
+                  <Constant>60</Constant>
+                </Equal>
+              </And>
+          </Transition>
+        </State>
+        <State id="Alerting" value="1">
+          <Transition to="Reset">
+            <Constant>1</Constant>
+          </Transition>
+        </State>
+      </StateMachine>
+    </Condition>
+  </Alert>	
+  
+
+    
 	</VoicesAlerts>
 </PlaneHTMLConfig>

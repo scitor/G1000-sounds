@@ -3,512 +3,537 @@
     {
       "path": "effects/KingAirG1000_glareshield.fx",
       "size": 1353,
-      "date": 133434864940000000
+      "date": 133435188940000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/cockpit.cfg",
       "size": 4623,
-      "date": 133442221020000000
+      "date": 133442545020000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/systems.cfg",
-      "size": 20765,
-      "date": 133459711073282342
+      "size": 20767,
+      "date": 133589989898134607
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/model/KINGAIR_350I_interior.XML",
-      "size": 94937,
-      "date": 133460671885800043
+      "size": 93305,
+      "date": 133461913760000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/model/KINGAIR_350I_interior_LOD0.bin",
       "size": 21420792,
-      "date": 133460672055448349
+      "date": 133460996060000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/model/KINGAIR_350I_interior_LOD0.gltf",
-      "size": 1381178,
-      "date": 133460672055548348
+      "size": 1381170,
+      "date": 133461004520000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/panel/PANEL.CFG",
       "size": 1885,
-      "date": 133459719245994865
+      "date": 133460043260000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/panel/panel.xml",
-      "size": 41217,
-      "date": 133459482958135557
+      "size": 54067,
+      "date": 133590740801317828
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/panel/Instruments/G1000/Plugins/KingAirMfdPlugins.css",
       "size": 4305,
-      "date": 133457356974181432
+      "date": 133457680980000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/panel/Instruments/G1000/Plugins/KingAirMfdPlugins.js",
       "size": 15807,
-      "date": 133457365245379946
+      "date": 133461903000000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/panel/Instruments/G1000/Plugins/KingAirPfdPlugins.css",
       "size": 731,
-      "date": 133438251940000000
+      "date": 133438575940000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/panel/Instruments/G1000/Plugins/KingAirPfdPlugins.js",
       "size": 37581,
-      "date": 133459461160902629
+      "date": 133461027180000000
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_KingAir350/sound/custom_five_hundred.wav",
+      "size": 111758,
+      "date": 132850251183856996
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_KingAir350/sound/Custom_gear.wav",
+      "size": 116336,
+      "date": 132911587918261921
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_KingAir350/sound/custom_taws.wav",
+      "size": 81080,
+      "date": 132850254143360461
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_KingAir350/sound/nxi_minimums.wav",
+      "size": 57444,
+      "date": 132850253035458060
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_KingAir350/sound/nxi_vertical_track.wav",
+      "size": 42168,
+      "date": 132850253826057593
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/sound/sound.xml",
-      "size": 39586,
-      "date": 133396023420000000
+      "size": 40211,
+      "date": 133590738812989463
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS1000_CONTROLPAD_DECAL_ALBD.PNG.DDS",
       "size": 1398256,
-      "date": 133335616660000000
+      "date": 133335940660000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS1000_CONTROLPAD_DECAL_ALBD.PNG.DDS.json",
       "size": 119,
-      "date": 133335616660000000
+      "date": 133335940660000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS1000_CONTROLPAD_DECAL_EMIS.PNG.DDS",
       "size": 312,
-      "date": 133335616660000000
+      "date": 133335940660000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS1000_CONTROLPAD_DECAL_EMIS.PNG.DDS.json",
       "size": 102,
-      "date": 133335616660000000
+      "date": 133335940660000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS1000_DECALS_ALBD.TIF.DDS",
       "size": 349680,
-      "date": 133335616660000000
+      "date": 133335940660000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS1000_DECALS_ALBD.TIF.DDS.json",
       "size": 119,
-      "date": 133335616660000000
+      "date": 133335940660000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS1000_DECAL_EMIS.PNG.DDS",
       "size": 11064,
-      "date": 133335616660000000
+      "date": 133335940660000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS1000_DECAL_EMIS.PNG.DDS.json",
       "size": 102,
-      "date": 133335616660000000
+      "date": 133335940660000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS1000_NOAUTOPILOTWITHHEADING_ALBD.PNG.DDS",
       "size": 5592560,
-      "date": 133335616660000000
+      "date": 133335940660000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS1000_NOAUTOPILOTWITHHEADING_ALBD.PNG.DDS.json",
       "size": 119,
-      "date": 133335616660000000
+      "date": 133335940660000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS1000_NOAUTOPILOTWITHHEADING_COMP.PNG.DDS",
       "size": 699192,
-      "date": 133335616660000000
+      "date": 133335940660000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS1000_NOAUTOPILOTWITHHEADING_COMP.PNG.DDS.json",
       "size": 166,
-      "date": 133335616660000000
+      "date": 133335940660000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS1000_NOAUTOPILOTWITHHEADING_EMIS.PNG.DDS",
       "size": 43832,
-      "date": 133335616660000000
+      "date": 133335940660000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS1000_NOAUTOPILOTWITHHEADING_EMIS.PNG.DDS.json",
       "size": 102,
-      "date": 133335616660000000
+      "date": 133335940660000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS1000_NOAUTOPILOTWITHHEADING_NORM.PNG.DDS",
       "size": 1398256,
-      "date": 133335616660000000
+      "date": 133335940660000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS1000_NOAUTOPILOTWITHHEADING_NORM.PNG.DDS.json",
       "size": 177,
-      "date": 133335616660000000
+      "date": 133335940660000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS700_BODY_ALBD.PNG.DDS",
       "size": 2796344,
-      "date": 133335616680000000
+      "date": 133335940680000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS700_BODY_ALBD.PNG.DDS.json",
       "size": 102,
-      "date": 133335616680000000
+      "date": 133335940680000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS700_BODY_COMP.PNG.DDS",
       "size": 2796344,
-      "date": 133335616680000000
+      "date": 133335940680000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS700_BODY_COMP.PNG.DDS.json",
       "size": 166,
-      "date": 133335616680000000
+      "date": 133335940680000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS700_BODY_NORM.PNG.DDS",
       "size": 5592560,
-      "date": 133335616680000000
+      "date": 133335940680000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS700_BODY_NORM.PNG.DDS.json",
       "size": 160,
-      "date": 133335616680000000
+      "date": 133335940680000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS700_DECALS_ALBD.PNG.DDS",
       "size": 22369776,
-      "date": 133335616680000000
+      "date": 133335940680000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS700_DECALS_ALBD.PNG.DDS.json",
       "size": 119,
-      "date": 133335616680000000
+      "date": 133335940680000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS700_DECALS_COMP.PNG.DDS",
       "size": 2796344,
-      "date": 133335616680000000
+      "date": 133335940680000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS700_DECALS_COMP.PNG.DDS.json",
       "size": 166,
-      "date": 133335616680000000
+      "date": 133335940680000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS700_DECALS_EMIS.PNG.DDS",
       "size": 11184952,
-      "date": 133335616680000000
+      "date": 133335940680000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS700_DECALS_EMIS.PNG.DDS.json",
       "size": 102,
-      "date": 133335616680000000
+      "date": 133335940680000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS700_LIGHT_ALBD.PNG.DDS",
       "size": 22000,
-      "date": 133335616680000000
+      "date": 133335940680000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS700_LIGHT_ALBD.PNG.DDS.json",
       "size": 119,
-      "date": 133335616680000000
+      "date": 133335940680000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS700_LIGHT_NORM.PNG.DDS",
       "size": 22000,
-      "date": 133335616680000000
+      "date": 133335940680000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS700_LIGHT_NORM.PNG.DDS.json",
       "size": 160,
-      "date": 133335616680000000
+      "date": 133335940680000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS700_SCREWS_ALBD.PNG.DDS",
       "size": 22000,
-      "date": 133335616680000000
+      "date": 133335940680000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS700_SCREWS_ALBD.PNG.DDS.json",
       "size": 119,
-      "date": 133335616680000000
+      "date": 133335940680000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS700_SCREWS_COMP.PNG.DDS",
       "size": 11064,
-      "date": 133335616680000000
+      "date": 133335940680000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS700_SCREWS_COMP.PNG.DDS.json",
       "size": 166,
-      "date": 133335616680000000
+      "date": 133335940680000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS700_SCREWS_NORM.PNG.DDS",
       "size": 22000,
-      "date": 133335616680000000
+      "date": 133335940680000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AS700_SCREWS_NORM.PNG.DDS.json",
       "size": 160,
-      "date": 133335616680000000
+      "date": 133335940680000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AUTOPILOT_BOX_ALBD.PNG.DDS",
       "size": 699192,
-      "date": 133448616300000000
+      "date": 133448940300000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AUTOPILOT_BOX_ALBD.PNG.DDS.json",
       "size": 102,
-      "date": 133448616300000000
+      "date": 133448940300000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AUTOPILOT_BOX_COMP.PNG.DDS",
       "size": 699192,
-      "date": 133448616300000000
+      "date": 133448940300000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AUTOPILOT_BOX_COMP.PNG.DDS.json",
       "size": 166,
-      "date": 133448616300000000
+      "date": 133448940300000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AUTOPILOT_BOX_NORM.PNG.DDS",
       "size": 1398256,
-      "date": 133448616300000000
+      "date": 133448940300000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/AUTOPILOT_BOX_NORM.PNG.DDS.json",
       "size": 160,
-      "date": 133448616300000000
+      "date": 133448940300000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/G1000_MOD_DECALS.PNG.DDS",
       "size": 87536,
-      "date": 133424253400000000
+      "date": 133424577400000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/G1000_MOD_DECALS.PNG.DDS.json",
       "size": 119,
-      "date": 133424253400000000
+      "date": 133424577400000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/G1000_MOD_DECALS_EMIS.PNG.DDS",
       "size": 43832,
-      "date": 133424255400000000
+      "date": 133424579400000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/G1000_MOD_DECALS_EMIS.PNG.DDS.json",
       "size": 102,
-      "date": 133424255400000000
+      "date": 133424579400000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/GDU1500_ALBD.PNG.DDS",
       "size": 5592560,
-      "date": 133401967080000000
+      "date": 133402291080000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/GDU1500_ALBD.PNG.DDS.json",
       "size": 119,
-      "date": 133401967080000000
+      "date": 133402291080000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/GDU1500_COMP.PNG.DDS",
       "size": 699192,
-      "date": 133401967080000000
+      "date": 133402291080000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/GDU1500_COMP.PNG.DDS.json",
       "size": 166,
-      "date": 133401967080000000
+      "date": 133402291080000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/GDU1500_EMIS.PNG.DDS",
       "size": 43832,
-      "date": 133401967080000000
+      "date": 133402291080000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/GDU1500_EMIS.PNG.DDS.json",
       "size": 102,
-      "date": 133401967080000000
+      "date": 133402291080000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/GDU1500_NORM.PNG.DDS",
       "size": 1398256,
-      "date": 133401967080000000
+      "date": 133402291080000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/GDU1500_NORM.PNG.DDS.json",
       "size": 177,
-      "date": 133401967080000000
+      "date": 133402291080000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/GLARESHIELD_UPPER_ALBD.PNG.DDS",
       "size": 699192,
-      "date": 133448580280000000
+      "date": 133448904280000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/GLARESHIELD_UPPER_ALBD.PNG.DDS.json",
       "size": 102,
-      "date": 133448580280000000
+      "date": 133448904280000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/GLARESHIELD_UPPER_COMP.PNG.DDS",
       "size": 699192,
-      "date": 133448580280000000
+      "date": 133448904280000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/GLARESHIELD_UPPER_COMP.PNG.DDS.json",
       "size": 166,
-      "date": 133448580280000000
+      "date": 133448904280000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/GLARESHIELD_UPPER_NORM.PNG.DDS",
       "size": 1398256,
-      "date": 133448580280000000
+      "date": 133448904280000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/GLARESHIELD_UPPER_NORM.PNG.DDS.json",
       "size": 160,
-      "date": 133448580280000000
+      "date": 133448904280000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/KINGAIR350I_CABIN_LIGHT_BLUE_EMIS.PNG.DDS",
       "size": 312,
-      "date": 133418479480000000
+      "date": 133418803480000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/KINGAIR350I_CABIN_LIGHT_BLUE_EMIS.PNG.DDS.json",
       "size": 102,
-      "date": 133418479480000000
+      "date": 133418803480000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/KINGAIR350I_COCKPIT_FLOOR_COMP.PNG.DDS",
       "size": 699192,
-      "date": 133399024460000000
+      "date": 133399348460000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/KINGAIR350I_COCKPIT_FLOOR_COMP.PNG.DDS.json",
       "size": 166,
-      "date": 133399024460000000
+      "date": 133399348460000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/LEATHER_DETAIL_GLARESHIELD_NORM.PNG.DDS",
       "size": 1398256,
-      "date": 133391631960000000
+      "date": 133391955960000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/LEATHER_DETAIL_GLARESHIELD_NORM.PNG.DDS.json",
       "size": 160,
-      "date": 133391631960000000
+      "date": 133391955960000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/LOWER_ANNUNCIATOR_TEXT_EMIS.PNG.DDS",
       "size": 1398256,
-      "date": 133427031020000000
+      "date": 133427355020000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/LOWER_ANNUNCIATOR_TEXT_EMIS.PNG.DDS.json",
       "size": 119,
-      "date": 133427031020000000
+      "date": 133427355020000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/MAINPANEL_ALBD.PNG.DDS",
       "size": 699192,
-      "date": 133448616300000000
+      "date": 133448940300000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/MAINPANEL_ALBD.PNG.DDS.json",
       "size": 102,
-      "date": 133448616300000000
+      "date": 133448940300000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/MAINPANEL_COMP.PNG.DDS",
       "size": 699192,
-      "date": 133448616300000000
+      "date": 133448940300000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/MAINPANEL_COMP.PNG.DDS.json",
       "size": 166,
-      "date": 133448616300000000
+      "date": 133448940300000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/MAINPANEL_NORM.PNG.DDS",
       "size": 1398256,
-      "date": 133448616300000000
+      "date": 133448940300000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/MAINPANEL_NORM.PNG.DDS.json",
       "size": 160,
-      "date": 133448616300000000
+      "date": 133448940300000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/texture.CFG",
       "size": 286,
-      "date": 133400300720000000
+      "date": 133400624720000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/UPPER_ANNUNCIATOR_ALBD.PNG.DDS",
       "size": 11064,
-      "date": 133425269120000000
+      "date": 133425593120000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/UPPER_ANNUNCIATOR_ALBD.PNG.DDS.json",
       "size": 102,
-      "date": 133425269120000000
+      "date": 133425593120000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/UPPER_ANNUNCIATOR_EMIS.PNG.DDS",
       "size": 11064,
-      "date": 133425268160000000
+      "date": 133425592160000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/UPPER_ANNUNCIATOR_EMIS.PNG.DDS.json",
       "size": 102,
-      "date": 133425268160000000
+      "date": 133425592160000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/UPPER_ANNUNCIATOR_TEXT_ALBD.PNG.DDS",
       "size": 1398256,
-      "date": 133429227160000000
+      "date": 133429551160000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/UPPER_ANNUNCIATOR_TEXT_ALBD.PNG.DDS.json",
       "size": 119,
-      "date": 133429227160000000
+      "date": 133429551160000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/YOKE_GRIP_ALBD.PNG.DDS",
       "size": 699192,
-      "date": 133448450080000000
+      "date": 133448774080000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/YOKE_GRIP_ALBD.PNG.DDS.json",
       "size": 102,
-      "date": 133448450080000000
+      "date": 133448774080000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/YOKE_GRIP_COMP.PNG.DDS",
       "size": 699192,
-      "date": 133448450100000000
+      "date": 133448774100000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/YOKE_GRIP_COMP.PNG.DDS.json",
       "size": 166,
-      "date": 133448450100000000
+      "date": 133448774100000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/YOKE_GRIP_NORM.PNG.DDS",
       "size": 1398256,
-      "date": 133448450100000000
+      "date": 133448774100000000
     },
     {
       "path": "SimObjects/Airplanes/Asobo_KingAir350/TEXTURE/YOKE_GRIP_NORM.PNG.DDS.json",
       "size": 160,
-      "date": 133448450100000000
+      "date": 133448774100000000
     }
   ]
 }

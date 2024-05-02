@@ -400,6 +400,12 @@
 	<Sound WwiseData="true" WwiseEvent="tone_warning" ViewPoint="Inside"/>
 	<Sound WwiseData="true" WwiseEvent="tone_touchscreen_touch" ViewPoint="Inside"/>	
 	<Sound WwiseData="true" WwiseEvent="tone_altitude_alert_default" ViewPoint="Inside"/>	
+
+  <Sound WwiseData="false" WwiseEvent="custom_warning_cockpit_sound_01" FileName="nxi_minimums" ViewPoint="Inside"/>
+  <Sound WwiseData="false" WwiseEvent="custom_warning_cockpit_sound_02" FileName="nxi_vertical_track" ViewPoint="Inside"/>
+  <Sound WwiseData="false" WwiseEvent="custom_warning_cockpit_sound_03" FileName="custom_five_hundred" ViewPoint="Inside" maximum_volume="100" />
+  <Sound WwiseData="false" WwiseEvent="custom_warning_cockpit_sound_04" FileName="custom_taws" ViewPoint="Inside"/>
+  <Sound WwiseData="false" WwiseEvent="custom_warning_cockpit_sound_05" FileName="Custom_gear" ViewPoint="Inside"/>
   </AvionicSounds>  
   
  <!-- AnimationSounds ################################################################################# -->  
